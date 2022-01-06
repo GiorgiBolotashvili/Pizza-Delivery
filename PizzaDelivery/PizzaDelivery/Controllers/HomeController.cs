@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PizzaDelivery.Mocks;
 using PizzaDelivery.Models;
-using PizzaDelivery.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
