@@ -1,0 +1,30 @@
+﻿@model PizzaDelivery.Models.User
+
+@{
+    ViewData["Title"] = "OrderPizza";
+}
+
+<div>
+
+    @if (@Model.Age > 16)
+    {
+        <h1>Welcome  <a> @Model.FirstName @Model.LastName </a> </h1>
+
+        <h1>how many pizza do you want to buy?: <a> </a>  </h1>
+
+        <form action="~/Home/OrderPizza" method="post">
+            <label for="count">Count:</label>
+            <input type="number" id="count" name="count" step="1" min="1">
+            <input type="submit" value="Success">
+        </form>
+    }
+
+    else
+    {
+        <h1> Sorry, we cannot serve you  </h1>
+        <h2> your age is under 16! </h2>
+
+    }
+
+</div>
+

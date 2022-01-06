@@ -1,0 +1,35 @@
+﻿@using PizzaDelivery.Models
+@model Product[]
+
+@{
+    ViewData["Title"] = "SetProduct";
+}
+
+@foreach (Product item in Model)
+{
+    <h2><b>--------------------------------------------</b></h2>
+    <h1>Name: <b>@item.PizzaName</b></h1>
+    <h1>Ingredients: <b>@item.Ingredients</b></h1>
+    if (@item.IsBitter)
+    {
+        <h1>Is better</h1>
+    }
+    else
+    {
+        <h1>Is not better</h1>
+    }
+    if (@item.Size == 1)
+    {
+        <h1>Size is small: <b>4 Pieces</b></h1>
+    }
+    else if (@item.Size == 2)
+    {
+        <h1>Size is medium: <b>6 Pieces</b></h1>
+    }
+    else
+    {
+        <h1>Size is large: <b>8 Pieces</b></h1>
+    }
+}
+
+
