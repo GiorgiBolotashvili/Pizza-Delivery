@@ -13,6 +13,7 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8bb105a3bd9403c1d4900ffe747ef6810cfef144", @"/Views/Home/Registration.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f39e675b0d3dc4591d5440d608d3de20ca4566ca", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Registration : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<PizzaDelivery.Models.User>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("action", new global::Microsoft.AspNetCore.Html.HtmlString("~/Home/OrderPizza"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -78,7 +79,7 @@ namespace AspNetCore
             WriteLiteral(" </a> </h1>\r\n");
             WriteLiteral("        <h1>how many pizza do you want to buy?: <a> </a>  </h1>\r\n");
             WriteLiteral("        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8bb105a3bd9403c1d4900ffe747ef6810cfef1444598", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8bb105a3bd9403c1d4900ffe747ef6810cfef1444762", async() => {
                 WriteLiteral("\r\n            <label for=\"count\">Count:</label>\r\n            <input type=\"number\" id=\"count\" name=\"count\" step=\"1\" min=\"1\">\r\n            <input type=\"submit\" value=\"Success\">\r\n        ");
             }
             );
@@ -116,6 +117,8 @@ namespace AspNetCore
             WriteLiteral("\r\n</div>\r\n\r\n");
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
+        public PizzaDelivery.Services.ILocalTime Time { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]

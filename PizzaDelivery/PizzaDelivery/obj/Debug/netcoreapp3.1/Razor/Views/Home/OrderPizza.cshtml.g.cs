@@ -13,6 +13,7 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"40faaa16c9c7d831cced42dde345f3dce17ed172", @"/Views/Home/OrderPizza.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f39e675b0d3dc4591d5440d608d3de20ca4566ca", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_OrderPizza : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<PizzaDelivery.Mocks.MocksPizzeys>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("text-md-center"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -52,7 +53,7 @@ namespace AspNetCore
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div class=\"wrapper\">\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "40faaa16c9c7d831cced42dde345f3dce17ed1723975", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "40faaa16c9c7d831cced42dde345f3dce17ed1724139", async() => {
                 WriteLiteral("\r\n");
 #nullable restore
 #line 9 "D:\Coding\C#Workspace\ASP.NET\Pizza-Delivery\PizzaDelivery\PizzaDelivery\Views\Home\OrderPizza.cshtml"
@@ -186,6 +187,8 @@ WriteAttributeValue("", 1541, i, 1541, 2, false);
             WriteLiteral("\r\n    </div>\r\n\r\n");
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
+        public PizzaDelivery.Services.ILocalTime Time { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]

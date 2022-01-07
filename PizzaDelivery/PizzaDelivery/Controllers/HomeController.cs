@@ -12,7 +12,8 @@ namespace PizzaDelivery.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            User user = new User();
+            return View(user);
         }
         public IActionResult Registration(User user, Address address)
         {

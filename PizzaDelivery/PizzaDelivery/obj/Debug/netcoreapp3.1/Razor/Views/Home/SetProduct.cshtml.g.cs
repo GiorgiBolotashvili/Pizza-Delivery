@@ -20,6 +20,7 @@ using PizzaDelivery.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c7ec11be555802c8f9dd403aec04754f36743b38", @"/Views/Home/SetProduct.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f39e675b0d3dc4591d5440d608d3de20ca4566ca", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_SetProduct : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Product[]>
     {
         #pragma warning disable 1998
@@ -120,6 +121,8 @@ using PizzaDelivery.Models;
             WriteLiteral("\r\n\r\n");
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
+        public PizzaDelivery.Services.ILocalTime Time { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]

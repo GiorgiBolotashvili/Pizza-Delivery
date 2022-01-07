@@ -108,3 +108,4 @@ D:\Coding\C#Workspace\ASP.NET\Pizza-Delivery\PizzaDelivery\PizzaDelivery\obj\Deb
 D:\Coding\C#Workspace\ASP.NET\Pizza-Delivery\PizzaDelivery\PizzaDelivery\obj\Debug\netcoreapp3.1\Razor\Views\Home\Registration.cshtml.g.cs
 D:\Coding\C#Workspace\ASP.NET\Pizza-Delivery\PizzaDelivery\PizzaDelivery\obj\Debug\netcoreapp3.1\Razor\Views\Home\OrderPizza.cshtml.g.cs
 D:\Coding\C#Workspace\ASP.NET\Pizza-Delivery\PizzaDelivery\PizzaDelivery\obj\Debug\netcoreapp3.1\Razor\Views\Home\SetProduct.cshtml.g.cs
+D:\Coding\C#Workspace\ASP.NET\Pizza-Delivery\PizzaDelivery\PizzaDelivery\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
