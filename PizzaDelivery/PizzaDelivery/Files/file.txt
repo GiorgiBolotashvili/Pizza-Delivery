@@ -1,0 +1,13 @@
+Name: Siciliana
+Ingredients: Tomato sauce, Mozzarella, Garlic, Salami, Hot peppers, Olive oil
+Is not better
+Size is small: 4 Pieces
+Name: Buffalo Chicken
+Ingredients: Hot sauce, Monterey Jack cheese, Blue cheese, Chicken breast cutlets, Spring onions, Olive oil
+Is not better
+Size is medium: 6 Pieces
+Name: Peperone
+Ingredients: Tomato sauce, Emmenthaler cheese, Parmesan, Peperoni salami, Chili peppers
+Is better
+Size is large: 8 Pieces
+File Created !პარასკევი, 07 იანვარი, 2022
